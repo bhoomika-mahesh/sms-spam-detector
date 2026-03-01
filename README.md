@@ -25,3 +25,33 @@ This project is a **machine learning model** that detects whether an SMS message
    cd sms-spam-detector
    pip install -r requirements.txt
    jupyter notebook sms_spam_detector.ipynb
+
+   ## 🧠 Project Overview
+
+This project builds a Natural Language Processing (NLP) based SMS Spam Detection system.
+
+The pipeline includes:
+- Text cleaning and preprocessing using NLTK
+- Tokenization and stopword removal
+- TF-IDF vectorization
+- Training a Multinomial Naive Bayes classifier
+- Model evaluation using accuracy and confusion matrix
+
+The system classifies SMS messages as **Spam** or **Ham (Not Spam)**.
+
+
+## 🚀 Key Features
+
+- Text preprocessing and normalization
+- Feature extraction using TF-IDF
+- Supervised classification using Naive Bayes
+- Model evaluation and performance analysis
+- Real-world NLP implementation
+
+
+## 📊 Model Details
+
+- Vectorizer: TF-IDF
+- Algorithm: Multinomial Naive Bayes
+- Dataset size: 5574 labeled messages
+- Problem Type: Binary Text Classification
